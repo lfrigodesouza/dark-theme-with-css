@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tema Claro e Escuro - Demonstração</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="page-header">
+        <h1 class="header-text">Tema Claro e Escuro - Demonstração</h1>
+        <h3 class="header-text">
+          Demonstração de tema claro e escuro utilizando apenas CSS e JS
+        </h3>
+      </div>
+      <div class="page-content">
+        <p>
+          Demonstração de mudança de tema claro e escuro como demonstrado no
+          artigo <a href="#">'Criando um tema escuro com JS e CSS'</a>
+        </p>
+
+        <div>
+          <div>Utilize esse botão para trocar o tema:</div>
+          <div class="toggler-container">
+            <div id="theme-toggler">
+              <span class="mdi mdi-theme-light-dark"></span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <button onClick="handleButton()">Clique Aqui</button>
+          <p id="count-label"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
