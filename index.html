@@ -16,30 +16,42 @@
     />
   </head>
   <body>
-    <div class="page-wrapper">
       <div class="page-header">
-        <h1 class="header-text">Tema Claro e Escuro - Demonstração</h1>
-        <h3 class="header-text">
+        <h1 class="header-title">Tema Claro e Escuro - Demonstração</h1>
+        <h2 class="header-subtitle">
           Demonstração de tema claro e escuro utilizando apenas CSS e JS
         </h3>
       </div>
+    <div class="page-wrapper">
       <div class="page-content">
         <p>
           Demonstração de mudança de tema claro e escuro como demonstrado no
-          artigo <a href="#">'Criando um tema escuro com JS e CSS'</a>
+          artigo <a href="https://www.lfrigodesouza/2020/12/16/Criando-um-tema-escuro-com-JS-e-CSS/" target="_blank">'Criando um tema escuro com JS e CSS'</a>
         </p>
-
-        <div>
-          <div>Utilize esse botão para trocar o tema:</div>
-          <div class="toggler-container">
-            <div id="theme-toggler">
-              <span class="mdi mdi-theme-light-dark"></span>
-            </div>
+        <p>Clique no botão para trocar entre os temas</p>
+        <div class="toggler-container">
+          <div id="theme-toggler">
+            <span class="mdi mdi-theme-light-dark"></span>
           </div>
         </div>
-        <div>
-          <button onClick="handleButton()">Clique Aqui</button>
-          <p id="count-label"></p>
+          <div>
+            <input id="save-theme" type="checkbox"/> <span>Salvar tema
+          </div>
+      </span></div>
+      <div class="pallet-container">
+        <h3>Paleta de cores do tema</h4>
+        <div class="color-pallet">
+          <div class="color-container" id="background-color"></div>
+          <div class="color-container" id="header-background-color"></div>
+          <div class="color-container" id="header-title-color"></div>
+          <div class="color-container" id="header-subtitle-color"></div>
+          <div class="color-container" id="toggle-border"></div>
+          <div class="color-container" id="toggle-color"></div>
+          <div class="color-container" id="toggle-background-color"></div>
+          <div class="color-container" id="link-color"></div>
+          <div class="color-container" id="divider-color"></div>
+          <div class="color-container" id="text-color"></div>
+          </div>
         </div>
       </div>
     </div>
