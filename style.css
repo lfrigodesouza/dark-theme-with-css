@@ -1,149 +1,149 @@
-html[data-theme='light']{
-    --background-color: #f5f5f5;
-    --header-background-color: #E3E3E3;
-    --header-title-color: #333333;
-    --header-subtitle-color:#969696;
-    --toggle-border: #f51717;
-    --toggle-color: #e68b35;
-    --toggle-background-color: #9ae7ff;
-    --link-color: #0000EE; 
-    --divider-color: #006064;
-    --text-color: #000000;
+html[data-theme="light"] {
+  --background-color: #f5f5f5;
+  --header-background-color: #e3e3e3;
+  --header-title-color: #333333;
+  --header-subtitle-color: #969696;
+  --toggle-border: #f51717;
+  --toggle-color: #e68b35;
+  --toggle-background-color: #9ae7ff;
+  --link-color: #0000ee;
+  --divider-color: #006064;
+  --text-color: #000000;
 }
 
-html[data-theme='dark']{
-    --background-color: #171e22;
-    --header-background-color: #1c262b;
-    --header-title-color: #5a7788;
-    --header-subtitle-color:#35454F ;
-    --toggle-border: #2e085e;
-    --toggle-color: #31273a ;
-    --toggle-background-color: #286699;
-    --link-color: #7d95ff; 
-    --divider-color: #006435;
-    --text-color: #acacac;
+html[data-theme="dark"] {
+  --background-color: #171e22;
+  --header-background-color: #1c262b;
+  --header-title-color: #5a7788;
+  --header-subtitle-color: #35454f;
+  --toggle-border: #2e085e;
+  --toggle-color: #31273a;
+  --toggle-background-color: #286699;
+  --link-color: #7d95ff;
+  --divider-color: #006435;
+  --text-color: #acacac;
 }
 
-body{
-    background-color: var(--background-color);
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    color: var(--text-color)
+body {
+  background-color: var(--background-color);
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
 }
 
 a {
-    color: var(--link-color);
+  color: var(--link-color);
 }
 
 .header-title {
-    color: var(--header-title-color);
+  color: var(--header-title-color);
 }
 
 .header-subtitle {
-    color: var(--header-subtitle-color);
+  color: var(--header-subtitle-color);
 }
 
 .page-header {
-    padding: 15px;
-    background-color: var(--header-background-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
+  padding: 15px;
+  background-color: var(--header-background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
 }
-.page-content{
-    max-width: 50vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.page-content {
+  max-width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.page-header h1, h2{
-    margin: 5px;
-}
-
-.page-content p{
-    text-align: center;
-    margin: 10px;
+.page-header h1,
+h2 {
+  margin: 5px;
 }
 
-.page-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.page-content p {
+  text-align: center;
+  margin: 10px;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .toggler-container {
-    margin-bottom: 10px;
-    font-size: 50px;
-    height: 60px;
-    width:  60px;
-    border-color: var(--toggle-border);
-    border-radius: 10px;
-    border-style: solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--toggle-background-color);
-    color: var(--toggle-color);
+  margin-bottom: 10px;
+  font-size: 50px;
+  height: 60px;
+  width: 60px;
+  border-color: var(--toggle-border);
+  border-radius: 10px;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--toggle-background-color);
+  color: var(--toggle-color);
 }
 
-.pallet-container{
-    border-color: var(--divider-color);
-    border-width: 3px 0 0 0;
-    border-style: solid;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.pallet-container {
+  border-color: var(--divider-color);
+  border-width: 3px 0 0 0;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.color-pallet{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+.color-pallet {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .color-container {
-    width: 100px;
-    height: 100px;
-    margin: 5px;
-    border-radius: 10px;
-    padding: 5px;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 5px;
 }
 
-#background-color{
-    background-color: var(--background-color);
-    border-style: solid;
-    border-color: var(--text-color);
-    border-width: 1px;
-
+#background-color {
+  background-color: var(--background-color);
+  border-style: solid;
+  border-color: var(--text-color);
+  border-width: 1px;
 }
-#header-background-color{
-    background-color: var(--header-background-color);
+#header-background-color {
+  background-color: var(--header-background-color);
 }
-#header-title-color{
-    background-color: var(--header-title-color);
+#header-title-color {
+  background-color: var(--header-title-color);
 }
-#header-subtitle-color{
-    background-color: var(--header-subtitle-color);
+#header-subtitle-color {
+  background-color: var(--header-subtitle-color);
 }
-#toggle-border{
-    background-color: var(--toggle-border);
+#toggle-border {
+  background-color: var(--toggle-border);
 }
-#toggle-color{
-    background-color: var(--toggle-color);
+#toggle-color {
+  background-color: var(--toggle-color);
 }
-#toggle-background-color{
-    background-color: var(--toggle-background-color);
+#toggle-background-color {
+  background-color: var(--toggle-background-color);
 }
-#link-color{
-    background-color: var(--link-color);
+#link-color {
+  background-color: var(--link-color);
 }
-#divider-color{
-    background-color: var(--divider-color);
+#divider-color {
+  background-color: var(--divider-color);
 }
-#text-color{
-    background-color: var(--text-color);
+#text-color {
+  background-color: var(--text-color);
 }

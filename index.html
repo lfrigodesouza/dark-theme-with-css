@@ -1,45 +1,43 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tema Claro e Escuro - Demonstração</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-      <div class="page-header">
-        <h1 class="header-title">Tema Claro e Escuro - Demonstração</h1>
-        <h2 class="header-subtitle">
-          Demonstração de tema claro e escuro utilizando apenas CSS e JS
-        </h3>
-      </div>
-    <div class="page-wrapper">
-      <div class="page-content">
-        <p>
-          Demonstração de mudança de tema claro e escuro como demonstrado no
-          artigo <a href="https://www.lfrigodesouza/2020/12/16/Criando-um-tema-escuro-com-JS-e-CSS/" target="_blank">'Criando um tema escuro com JS e CSS'</a>
-        </p>
-        <p>Clique no botão para trocar entre os temas</p>
-        <div class="toggler-container">
-          <div id="theme-toggler">
-            <span class="mdi mdi-theme-light-dark"></span>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tema Claro e Escuro - Demonstração</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="page-header">
+    <h1 class="header-title">Tema Claro e Escuro - Demonstração</h1>
+    <h2 class="header-subtitle">
+      Demonstração de tema claro e escuro utilizando apenas CSS e JS
+      </h3>
+  </div>
+  <div class="page-wrapper">
+    <div class="page-content">
+      <p>
+        Demonstração de mudança de tema claro e escuro com base no artigo
+        <a href="https://lfrigodesouza.net/2020/12/17/Criando-um-tema-escuro-com-JS-e-CSS/?utm_medium=source_code&utm_source=github"
+          target="_blank">'Criando um tema escuro com JS e CSS'</a>
+      </p>
+      <p>Clique no botão para alternar entre os temas</p>
+      <div class="toggler-container">
+        <div id="theme-toggler">
+          <span class="mdi mdi-theme-light-dark"></span>
         </div>
-          <div>
-            <input id="save-theme" type="checkbox"/> <span>Salvar tema
-          </div>
-      </span></div>
-      <div class="pallet-container">
-        <h3>Paleta de cores do tema</h4>
+      </div>
+      <div>
+        <input id="save-theme" type="checkbox" /> <span>Lembrar tema
+      </div>
+      </span>
+    </div>
+    <div class="pallet-container">
+      <h3>Paleta de cores do tema</h4>
         <div class="color-pallet">
           <div class="color-container" id="background-color"></div>
           <div class="color-container" id="header-background-color"></div>
@@ -51,10 +49,11 @@
           <div class="color-container" id="link-color"></div>
           <div class="color-container" id="divider-color"></div>
           <div class="color-container" id="text-color"></div>
-          </div>
         </div>
-      </div>
     </div>
-  </body>
-  <script src="main.js"></script>
+  </div>
+  </div>
+</body>
+<script src="main.js"></script>
+
 </html>
